@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semester Final Form Fill up</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="{{ url_for('static', filename='css/styles.css') }}" rel="stylesheet">
+
+</head>
+<body>
+    <div class="container">
+        <div class="form-card card">
+            <div class="card-header">
+                <h4>Student Form Fillup for Semester Final Exam</h4>
+                <div class="subtitle">Bangladesh University of Textiles</div>
+            </div>
+            <div class="card-body">
+                {% if message %}
+                    <div class="alert alert-success" role="alert">
+                        {{ message }}
+                    </div>
+                {% endif %}
+                <form  action="/" method="POST">
+
+                    <!-- SECTION 1: Semester Information -->
+                    <div class="section-title">
+                        <span class="icon-circle">1</span> Semester Information
+                    </div>
+                    <div class="row mb-3">
+                        <div class="col-md-4 mb-3 mb-md-0">
+                            <label for="level" class="form-label">Level <span class="required-dot">*</span></label>
+                            <select class="form-select" id="level" name="level" required>
+                                <option value="" disabled selected>-- Select Level --</option>
+                                <option value="L-1">L-1</option>
+                                <option value="L-2">L-2</option>
+                                <option value="L-3">L-3</option>
+                                <option value="L-4">L-4</option>
+                            </select>
+                        </div>
+                        <div class="col-md-4 mb-3 mb-md-0">
+                            <label for="term" class="form-label">Term <span class="required-dot">*</span></label>
+                            <select class="form-select" id="term" name="term" required>
+                                <option value="" disabled selected>-- Select Term --</option>
+                                <option value="T-1">T-1</option>
+                                <option value="T-2">T-2</option>
+                            </select>
+                        </div>
+                        <div class="col-md-4">
+                            <label for="butex_exam" class="form-label">BUTEX Exam</label>
+                            <input type="text" class="form-control" id="butex_exam" name="butex_exam" placeholder="e.g., 2025, 2026" >
+                        </div>
+                    </div>
+
+                    <!-- SECTION 2: Academic Info -->
+                    <div class="section-title mt-4">
+                        <span class="icon-circle">2</span> Academic Information
+                    </div>
+                    <div class="row mb-3">
+                        <div class="col-md-6 mb-3 mb-md-0">
+                            <label for="id" class="form-label">Student ID <span class="required-dot">*</span></label>
+                            <input type="text" class="form-control" id="id" name="id" placeholder="Enter Student ID" required>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="dept" class="form-label">Department <span class="required-dot">*</span></label>
+                            <select class="form-select" id="dept" name="dept" required>
+                                <option value="" disabled selected>-- Select Department --</option>
+                                <option value="YE">YE - Yarn Engineering</option>
+
+                                <!-- for future use and data intregation with database -->
+                                <!-- <option value="FE">FE - Fabric Engineering</option>
+                                <option value="AE">AE - Apparel Engineering</option>
+                                <option value="WPE">WPE - Wet Processing Engineering</option>
+                                <option value="TEM">TEM - Textile Engineering Management</option>
+                                <option value="IPE">IPE - Industrial & Production Engineering</option>
+                                <option value="TMDM">TMDM - Textile Machinery Design & Maintenance</option>
+                                <option value="ESE">ESE - Environmental Science & Engineering</option> -->
+                            </select>
+                        </div>
+                    </div>
+
+                    <!-- SECTION 3: Personal Information -->
+                    <div class="section-title mt-4">
+                        <span class="icon-circle">3</span> Personal Information
+                    </div>
+                    <div class="row mb-3">
+                        <div class="col-md-6 mb-3 mb-md-0">
+                            <label for="student_name_b" class="form-label">Student Name (Bengali)</label>
+                            <input type="text" class="form-control" id="student_name_b" name="student_name_b" placeholder="বাংলায় নাম লিখুন">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="student_name" class="form-label">Student Name (English Block Letter) <span class="required-dot">*</span></label>
+                            <input type="text" class="form-control" id="student_name" name="student_name" placeholder="ENTER NAME IN BLOCK LETTERS" required>
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <div class="col-md-6 mb-3 mb-md-0">
+                            <label for="birth" class="form-label">Date of Birth <span class="required-dot">*</span></label>
+                            <input type="date" class="form-control" id="birth" name="birth" required>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="religion" class="form-label">Religion <span class="required-dot">*</span></label>
+                            <select class="form-select" id="religion" name="religion" required>
+                                <option value="" disabled selected>-- Select Religion --</option>
+                                <option value="Islam">Islam</option>
+                                <option value="Hindu">Hindu</option>
+                                <option value="Christian">Christian</option>
+                                <option value="Buddhist">Buddhist</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <div class="col-md-6 mb-3 mb-md-0">
+                            <label for="nationality" class="form-label">Nationality <span class="required-dot">*</span></label>
+                            <select class="form-select" id="nationality" name="nationality" required>
+                                <option value="" disabled selected>-- Select Nationality --</option>
+                                <option value="Bangladeshi">Bangladeshi</option>
+                                <option value="Foreigner">Foreigner</option>
+                            </select>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="phone" class="form-label">Phone Number <span class="required-dot">*</span></label>
+                            <input type="text" class="form-control" id="phone" name="phone" placeholder="Enter phone number" required>
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <div class="col-md-6 mb-3 mb-md-0">
+                            <label for="father" class="form-label">Father's Name <span class="required-dot">*</span></label>
+                            <input type="text" class="form-control" id="father" name="father" placeholder="Enter father's name" required>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="mother" class="form-label">Mother's Name <span class="required-dot">*</span></label>
+                            <input type="text" class="form-control" id="mother" name="mother" placeholder="Enter mother's name" required>
+                        </div>
+                    </div>
+
+                    <!-- SECTION 4: Previous Board Exam Details -->
+                    <div class="section-title mt-4">
+                        <span class="icon-circle">4</span> Previous Board Exam Details
+                    </div>
+
+                    <!-- SSC Sub-section -->
+                    <div class="sub-section-title">SSC Examination</div>
+                    <div class="row mb-3">
+                        <div class="col-md-6 mb-3 mb-md-0">
+                            <label for="year_ssc" class="form-label">Passing Year <span class="required-dot">*</span></label>
+                            <input type="text" class="form-control" id="year_ssc" name="year_ssc" placeholder="e.g., 2019" required>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="ssc_roll" class="form-label">Roll Number <span class="required-dot">*</span></label>
+                            <input type="text" class="form-control" id="ssc_roll" name="ssc_roll" placeholder="Enter SSC roll number" required>
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <div class="col-md-6 mb-3 mb-md-0">
+                            <label for="ssc_board" class="form-label">Board <span class="required-dot">*</span></label>
+                            <input type="text" class="form-control" id="ssc_board" name="ssc_board" placeholder="e.g., Dhaka, Rajshahi" required>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="school" class="form-label">School Name <span class="required-dot">*</span></label>
+                            <input type="text" class="form-control" id="school" name="school" placeholder="Enter school name" required>
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <div class="col-md-6">
+                            <label for="gpa_ssc" class="form-label">GPA <span class="required-dot">*</span></label>
+                            <select class="form-select" id="gpa_ssc" name="gpa" required>
+                                <option value="" disabled selected>-- Select GPA --</option>
+                                <option value="GPA 5">GPA-5.00</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <!-- HSC Sub-section -->
+                    <div class="sub-section-title mt-3">HSC Examination</div>
+                    <div class="row mb-3">
+                        <div class="col-md-6 mb-3 mb-md-0">
+                            <label for="year_hsc" class="form-label">Passing Year <span class="required-dot">*</span></label>
+                            <input type="text" class="form-control" id="year_hsc" name="year_hsc" placeholder="e.g., 2021" required>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="roll_hsc" class="form-label">Roll Number <span class="required-dot">*</span></label>
+                            <input type="text" class="form-control" id="roll_hsc" name="roll_hsc" placeholder="Enter HSC roll number" required>
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <div class="col-md-6 mb-3 mb-md-0">
+                            <label for="hsc_board" class="form-label">Board <span class="required-dot">*</span></label>
+                            <input type="text" class="form-control" id="hsc_board" name="hsc_board" placeholder="e.g., Dhaka, Rajshahi" required>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="college" class="form-label">College Name <span class="required-dot">*</span></label>
+                            <input type="text" class="form-control" id="college" name="college" placeholder="Enter college name" required>
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <div class="col-md-6">
+                            <label for="gpa_hsc" class="form-label">GPA <span class="required-dot">*</span></label>
+                            <select class="form-select" id="gpa_hsc" name="gpa" required>
+                                <option value="" disabled selected>-- Select GPA --</option>
+                                <option value="GPA 5">GPA-5.00</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <!-- SECTION 5: Address Information -->
+                    <div class="section-title mt-4">
+                        <span class="icon-circle">5</span> Address Information
+                    </div>
+                    <div class="row mb-3">
+                        <div class="col-12 mb-3">
+                            <label for="present_address" class="form-label">Present Address <span class="required-dot">*</span></label>
+                            <textarea class="form-control" id="present_address" name="present_address" rows="3" placeholder="Enter your full present address" required></textarea>
+                        </div>
+                    </div>
+
+                    <div class="sub-section-title mt-3">Permanent Address</div>
+
+                    <div class="row mb-3">
+                        <div class="col-md-6 mb-3 mb-md-0">
+                            <label for="village" class="form-label">Village / Area</label>
+                            <input type="text" class="form-control" id="village" name="village" placeholder="Enter village or area">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="post" class="form-label">Post Office</label>
+                            <input type="text" class="form-control" id="post" name="post" placeholder="Enter post office">
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <div class="col-md-6 mb-3 mb-md-0">
+                            <label for="thana" class="form-label">Thana / Upazila</label>
+                            <input type="text" class="form-control" id="thana" name="thana" placeholder="Enter thana or upazila">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="zilla" class="form-label">Zilla / District</label>
+                            <input type="text" class="form-control" id="zilla" name="zilla" placeholder="Enter zilla or district">
+                        </div>
+                    </div>
+
+                    <!-- Submit Button -->
+                    <div class="text-center mt-4 pt-2">
+                        <button type="submit" class="btn btn-submit btn-lg">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="me-2 mb-1" viewBox="0 0 16 16">
+                                <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"/>
+                            </svg>
+                            Submit Form
+                        </button>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
