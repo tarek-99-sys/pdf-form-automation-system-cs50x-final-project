@@ -14,6 +14,25 @@ from data import lookup
 app = Flask(__name__)
 # app.config['UPLOAD_FOLDER'] = 'uploads'  # Directory to save uploaded files
 
+# ===== KEEP ALIVE (right after app = Flask(__name__)) =====
+@app.route('/ping')
+def ping():
+    return "alive", 200
+
+def keep_alive():
+    url = "https://your-app-name.onrender.com/ping"  # <-- replace with your actual URL
+    while True:
+        time.sleep(9 * 60)
+        try:
+            response = requests.get(url, timeout=10)
+            print(f"Pinged at {time.strftime('%H:%M:%S')} - status: {response.status_code}")
+        except Exception as e:
+            print(f"Ping failed: {e}")
+
+thread = threading.Thread(target=keep_alive, daemon=True)
+thread.start()
+# ===== END KEEP ALIVE =====
+
 @app.route('/', methods=['GET', 'POST'])
 
 def index():
