@@ -45,7 +45,6 @@ def index():
         #creating a dictionary whoose key is the same name of Entry_Form3.pdf field name
 
         data_field = { 'id': None,
-        'student_name_b': None,
         'father': None,
         'mother': None,
         'level': None,
