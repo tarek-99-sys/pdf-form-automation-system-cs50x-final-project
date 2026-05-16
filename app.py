@@ -9,6 +9,9 @@ from pypdf import PdfReader, PdfWriter
 #data.py to import curriculum data from user L-1, T-1 selection
 
 from data import lookup
+import threading   
+import requests    
+import time        
 
 
 app = Flask(__name__)
