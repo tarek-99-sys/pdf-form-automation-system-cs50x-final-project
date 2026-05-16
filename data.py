@@ -2,6 +2,8 @@
 #Valid For OBE and start from 49th Batch
 
 # first start with YE-49
+# DATA STRCUTURE SHOULD BE "YE:Level 1 - Term 1"
+# FOR EACH DEPARTMENT & TERM AND LEVEL
 
 curriculum = {
 
@@ -359,6 +361,7 @@ curriculum = {
 
 
 
+
 def lookup(key):
             i = 1
 
@@ -375,7 +378,7 @@ def lookup(key):
                 #this will create dict with key s1, s2, s3... and value will be course code like PHY 101-0533
                 course_dict[f"s{i}"] = course["name"]
                 #this will create dict with key s1, s2, s3... and value
-                
+
                 i += 1
 
             return code_dict, course_dict
