@@ -46,10 +46,33 @@
                                 <option value="T-2">T-2</option>
                             </select>
                         </div>
-                        <div class="col-md-4">
+                        
+                        <!-- <div class="col-md-4">
                             <label for="butex_exam" class="form-label">BUTEX Exam</label>
                             <input type="text" class="form-control" id="butex_exam" name="butex_exam" placeholder="e.g., 2025, 2026" >
                         </div>
+                    </div> -->
+                                            <div class="col-md-4">
+                    <label for="butex_exam" class="form-label">BUTEX Exam</label>
+
+                    <div class="input-group">
+                    <span class="input-group-text fw-bold">20</span>
+
+                    <input
+                        type="text"
+                        class="form-control"
+                        id="butex_exam"
+                        name="butex_exam"
+                        placeholder="26"
+                        maxlength="2"
+                        pattern="[0-9]{2}"
+                        >
+                        
+                    </div>
+
+                        <small class="text-muted">
+                        Enter only last 2 digits (e.g., 26, 27)
+                        </small>
                     </div>
 
                     <!-- SECTION 2: Academic Info -->
