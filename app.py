@@ -50,9 +50,18 @@ def index():
         'hsc_board': None
         }
 
+        # level = request.form.get('level')  # Get the selected level from the form
+        # term = request.form.get('term')  # Get the selected term from the form
+        # key = level.replace("L-", "Level ") + " - " + term.replace("T-", "Term ")  # Normalize the key to match the format in the curriculum dictionary 
+      #HERE DEPARTMENT SHOULD BE SELECTED
+        # gets value from <select name="dept">
+        department = request.form.get('dept')
+
         level = request.form.get('level')  # Get the selected level from the form
         term = request.form.get('term')  # Get the selected term from the form
-        key = level.replace("L-", "Level ") + " - " + term.replace("T-", "Term ")  # Normalize the key to match the format in the curriculum dictionary   
+
+        key = f"{department}: {level.replace('L-', 'Level ')} - {term.replace('T-', 'Term ')}"  # Normalize the key to match the format in the curriculum dictionary
+
 
      #use the lookup function to get the course code and course name for the selected level and term
         # key = "Level 1 - Term 1"
