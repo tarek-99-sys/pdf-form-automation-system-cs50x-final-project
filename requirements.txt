@@ -22,5 +22,4 @@ termcolor==3.3.0
 typing_extensions==4.15.0
 urllib3==2.6.3
 Werkzeug==3.1.8
-pip install reportlab
-sudo apt install fonts-freefont-ttf
+reportlab
