@@ -923,7 +923,351 @@ curriculum = {
         {"code": "DCE 416-0723",  "name": "Project (Part-II)",                                 "credit": 3},
         {"code": "DCE 418-0723",  "name": "Industrial Attachment",                             "credit": 3},
         {"code": "DCE 420-0723",  "name": "Comprehensive Exam",                                "credit": 1},
+    ],
+
+      
+      # ========== TEM - Textile Engineering Management ==========
+# Source: Bangladesh University of Textiles, OBE Course List
+# Department of TEM — Pages 9 of 20
+# Credit: as per Credit column in each table
+
+    # -----------------------------------------------------------------------
+    "TEM: Level 1 - Term 1": [
+        {"code": "CHEM 101-0531", "name": "Chemistry-I",                              "credit": 3},
+        {"code": "CHEM 102-0531", "name": "Chemistry-I Lab",                          "credit": 1},
+        {"code": "ENG 101-0231",  "name": "Business and Communicative English",       "credit": 2},
+        {"code": "ENG 102-0231",  "name": "Business and Communicative English Lab",   "credit": 1},
+        {"code": "IPE 102-0788",  "name": "Engineering Drawing and CAD Lab",          "credit": 1},
+        {"code": "MATH 101-0541", "name": "Mathematics-I",                            "credit": 3},
+        {"code": "PHY 101-0533",  "name": "Physics-I",                                "credit": 3},
+        {"code": "PHY 102-0533",  "name": "Physics-I Lab",                            "credit": 1},
+        {"code": "TEM 101-0413",  "name": "Principles of Management",                 "credit": 3},
+        {"code": "YE 101-0723",   "name": "Natural Textile Fibres",                   "credit": 3},
+    ],
+
+    # -----------------------------------------------------------------------
+    "TEM: Level 1 - Term 2": [
+        {"code": "CHEM 103-0531", "name": "Chemistry-II",                             "credit": 3},
+        {"code": "CHEM 104-0531", "name": "Chemistry-II Lab",                         "credit": 1},
+        {"code": "CSE 101-0613",  "name": "Computer Programming",                     "credit": 3},
+        {"code": "CSE 102-0613",  "name": "Computer Programming Lab",                 "credit": 1},
+        {"code": "MATH 103-0541", "name": "Mathematics-II",                           "credit": 3},
+        {"code": "PHY 103-0533",  "name": "Physics-II",                               "credit": 3},
+        {"code": "PHY 104-0533",  "name": "Physics-II Lab",                           "credit": 1},
+        {"code": "SOC 101-0314",  "name": "Bangladesh Studies",                       "credit": 2},
+        {"code": "TEM 103-0414",  "name": "Principles of Marketing",                  "credit": 3},
+    ],
+
+    # -----------------------------------------------------------------------
+    "TEM: Level 2 - Term 1": [
+        {"code": "FE 251-0723",   "name": "Fabric Manufacturing-I",                              "credit": 3},
+        {"code": "FE 252-0723",   "name": "Fabric Manufacturing-I Lab",                          "credit": 1},
+        {"code": "ME 201-0715",   "name": "Fundamentals of Mechanical Engineering",              "credit": 3},
+        {"code": "ME 202-0715",   "name": "Fundamentals of Mechanical Engineering Lab",          "credit": 1},
+        {"code": "SOC 201-0314",  "name": "Sociology and Professional Ethics",                   "credit": 2},
+        {"code": "TEM 201-0411",  "name": "Principles of Accounting",                            "credit": 2},
+        {"code": "YE 209-0723",   "name": "Yarn Manufacturing-I",                                "credit": 3},
+        {"code": "YE 210-0723",   "name": "Yarn Manufacturing-I Lab",                            "credit": 1},
+        {"code": "YE 213-0723",   "name": "Textile Testing and Quality Control",                 "credit": 3},
+        {"code": "YE 214-0723",   "name": "Textile Testing and Quality Control Lab",             "credit": 1},
+        {"code": "YE 215-0723",   "name": "Man-made Textile Fibres",                             "credit": 3},
+    ],
+
+    # -----------------------------------------------------------------------
+    "TEM: Level 2 - Term 2": [
+        {"code": "AE 217-0723",   "name": "Apparel Manufacturing-I",                                     "credit": 3},
+        {"code": "AE 218-0723",   "name": "Apparel Manufacturing-I Lab",                                 "credit": 1},
+        {"code": "EEE 201-0713",  "name": "Fundamentals of Electrical and Electronics Engineering",      "credit": 3},
+        {"code": "EEE 202-0713",  "name": "Fundamentals of Electrical and Electronics Engineering Lab",  "credit": 1},
+        {"code": "STAT 201-0542", "name": "Statistics",                                                  "credit": 3},
+        {"code": "STAT 202-0542", "name": "Statistical Data Analysis Lab",                               "credit": 1},
+        {"code": "TEM 203-0411",  "name": "Cost Accounting",                                             "credit": 2},
+        {"code": "TEM 205-0417",  "name": "Human Resource Management",                                   "credit": 3},
+        {"code": "WPE 221-0723",  "name": "Wet Processing-I",                                            "credit": 3},
+        {"code": "WPE 222-0723",  "name": "Wet Processing-I Lab",                                        "credit": 1},
+    ],
+
+    # -----------------------------------------------------------------------
+    "TEM: Level 3 - Term 1": [
+        {"code": "FE 305-0723",   "name": "Fabric Structure and Design",             "credit": 3},
+        {"code": "FE 306-0723",   "name": "Fabric Structure and Design Lab",         "credit": 1},
+        {"code": "FE 351-0723",   "name": "Fabric Manufacturing-II",                 "credit": 3},
+        {"code": "FE 352-0723",   "name": "Fabric Manufacturing-II Lab",             "credit": 1},
+        {"code": "TEM 301-0311",  "name": "Financial Management",                    "credit": 2},
+        {"code": "TEM 303-0413",  "name": "Entrepreneurship and Project Management", "credit": 3},
+        {"code": "TEM 304-0413",  "name": "Project Management Lab",                  "credit": 1},
+        {"code": "TEM 305-0413",  "name": "Production Planning and Control",         "credit": 3},
+        {"code": "YE 309-0723",   "name": "Yarn Manufacturing-II",                   "credit": 3},
+        {"code": "YE 310-0723",   "name": "Yarn Manufacturing-II Lab",               "credit": 1},
+    ],
+
+    # -----------------------------------------------------------------------
+    "TEM: Level 3 - Term 2": [
+        {"code": "AE 315-0723",   "name": "Apparel Manufacturing-II",                "credit": 3},
+        {"code": "AE 316-0723",   "name": "Apparel Manufacturing-II Lab",            "credit": 1},
+        {"code": "ECON 301-0311", "name": "Economics",                               "credit": 2},
+        {"code": "TEM 307-0416",  "name": "Management Information System",           "credit": 3},
+        {"code": "TEM 308-0723",  "name": "Textile Process Optimization Lab",        "credit": 1},
+        {"code": "TEM 309-0723",  "name": "Textile Quality Management",              "credit": 2},
+        {"code": "TEM 311-0723",  "name": "Textile Product Development",             "credit": 2},
+        {"code": "TEM 312-0723",  "name": "Textile Product Development Lab",         "credit": 1},
+        {"code": "WPE 321-0723",  "name": "Wet Processing-II",                       "credit": 3},
+        {"code": "WPE 322-0723",  "name": "Wet Processing-II Lab",                   "credit": 1},
+    ],
+
+    # -----------------------------------------------------------------------
+    "TEM: Level 4 - Term 1": [
+        {"code": "TEM 401-0413",  "name": "Business Analytics",                                "credit": 2},
+        {"code": "TEM 402-0413",  "name": "Business Analytics Lab",                            "credit": 1},
+        {"code": "TEM 403-0723",  "name": "Textile Supply Chain Management",                   "credit": 3},
+        {"code": "TEM 404-0723",  "name": "Textile Supply Chain Management Lab",               "credit": 1},
+        {"code": "TEM 405-0413",  "name": "Strategic Management",                              "credit": 3},
+        {"code": "TEM 407-0414",  "name": "Textile and Apparel Merchandising",                 "credit": 3},
+        {"code": "TEM 409-0723",  "name": "Research Methodology and Academic Writing",         "credit": 2},
+        {"code": "TEM 410-0723",  "name": "Project Work (Part-I)",                             "credit": 3},
+    ],
+
+    # -----------------------------------------------------------------------
+    "TEM: Level 4 - Term 2": [
+        {"code": "IPE 413-0788",  "name": "Industrial Revolutions in Textiles",      "credit": 2},
+        {"code": "TEM 411-0723",  "name": "E-Commerce and International Trade",      "credit": 2},
+        {"code": "TEM 413-0416",  "name": "Consumer and Retail Studies",             "credit": 2},
+        {"code": "TEM 415-1022",  "name": "Sustainability and Compliance",           "credit": 3},
+        {"code": "TEM 418-0723",  "name": "Industrial Attachment",                   "credit": 3},
+        {"code": "TEM 420-0723",  "name": "Project Work (Part-II)",                  "credit": 3},
+        {"code": "TEM 422-0723",  "name": "Comprehensive Viva",                      "credit": 3},
+    ],
+
+
+      # ========== TFD - Textile Fashion Design ==========
+# Source: Bangladesh University of Textiles, OBE Course List
+# Department of TFD — Pages 11 of 20
+# Credit: as per Credit column in each table
+    # -----------------------------------------------------------------------
+    "TFD: Level 1 - Term 1": [
+        {"code": "CHEM 101-0531", "name": "Chemistry-I",                              "credit": 3},
+        {"code": "CHEM 102-0531", "name": "Chemistry-I Lab",                          "credit": 1},
+        {"code": "CSE 101-0613",  "name": "Computer Programming",                     "credit": 3},
+        {"code": "CSE 102-0613",  "name": "Computer Programming Lab",                 "credit": 1},
+        {"code": "ENG 101-0231",  "name": "Business and Communicative English",       "credit": 2},
+        {"code": "MATH 101-0541", "name": "Mathematics-I",                            "credit": 3},
+        {"code": "PHY 101-0533",  "name": "Physics-I",                                "credit": 3},
+        {"code": "PHY 102-0533",  "name": "Physics-I Lab",                            "credit": 1},
+        {"code": "SOC 101-0314",  "name": "Bangladesh Studies",                       "credit": 2},
+        {"code": "TFD 101-0212",  "name": "Basic Fashion Studies",                    "credit": 2},
+        {"code": "TFD 102-0212",  "name": "Fashion Design-I Lab",                     "credit": 1},
+    ],
+
+    # -----------------------------------------------------------------------
+    "TFD: Level 1 - Term 2": [
+        {"code": "CHEM 103-0531", "name": "Chemistry-II",                             "credit": 3},
+        {"code": "CHEM 104-0531", "name": "Chemistry-II Lab",                         "credit": 1},
+        {"code": "ENG 102-0231",  "name": "Business and Communicative English Lab",   "credit": 1},
+        {"code": "IPE 102-0788",  "name": "Engineering Drawing and CAD Lab",          "credit": 1},
+        {"code": "MATH 103-0541", "name": "Mathematics-II",                           "credit": 3},
+        {"code": "PHY 103-0533",  "name": "Physics-II",                               "credit": 3},
+        {"code": "PHY 104-0533",  "name": "Physics-II Lab",                           "credit": 1},
+        {"code": "TEX 109-0723",  "name": "Natural Textile Fibres",                   "credit": 3},
+        {"code": "TFD 103-0212",  "name": "Fashion History",                          "credit": 3},
+        {"code": "TFD 104-0212",  "name": "Fashion Design-II Lab",                    "credit": 1},
+        {"code": "TFD 106-0212",  "name": "Fashion Illustration-I Lab",               "credit": 1},
+    ],
+
+    # -----------------------------------------------------------------------
+    "TFD: Level 2 - Term 1": [
+        {"code": "FE 251-0723",   "name": "Fabric Manufacturing-I",                   "credit": 3},
+        {"code": "FE 252-0723",   "name": "Fabric Manufacturing-I Lab",               "credit": 1},
+        {"code": "STAT 201-0542", "name": "Statistics",                               "credit": 3},
+        {"code": "TFD 201-0723",  "name": "Garments Manufacturing-I",                 "credit": 3},
+        {"code": "TFD 202-0723",  "name": "Garments Manufacturing-I Lab",             "credit": 1},
+        {"code": "TFD 204-0212",  "name": "Fashion Illustration-II Lab",              "credit": 1},
+        {"code": "WPE 221-0723",  "name": "Wet Processing-I",                         "credit": 3},
+        {"code": "WPE 222-0723",  "name": "Wet Processing-I Lab",                     "credit": 1},
+        {"code": "YE 209-0723",   "name": "Yarn Manufacturing-I",                     "credit": 3},
+        {"code": "YE 210-0723",   "name": "Yarn Manufacturing-I Lab",                 "credit": 1},
+    ],
+
+    # -----------------------------------------------------------------------
+    "TFD: Level 2 - Term 2": [
+        {"code": "SOC 201-0314",  "name": "Sociology and Professional Ethics",        "credit": 2},
+        {"code": "STAT 202-0542", "name": "Statistical Data Analysis Lab",            "credit": 1},
+        {"code": "TFD 205-0723",  "name": "Garments Manufacturing-II",               "credit": 3},
+        {"code": "TFD 206-0723",  "name": "Garments Manufacturing-II Lab",            "credit": 1},
+        {"code": "TFD 208-0714",  "name": "Fashion Design-III Lab",                   "credit": 1},
+        {"code": "TFD 210-0714",  "name": "Fashion Illustration-III Lab",             "credit": 1},
+        {"code": "TFD 212-0714",  "name": "Pattern Drafting-I Lab",                   "credit": 1},
+        {"code": "YE 213-0723",   "name": "Textile Testing and Quality Control",      "credit": 3},
+        {"code": "YE 214-0723",   "name": "Textile Testing and Quality Control Lab",  "credit": 1},
+        {"code": "YE 215-0723",   "name": "Man-made Textile Fibres",                  "credit": 3},
+    ],
+
+    # -----------------------------------------------------------------------
+    "TFD: Level 3 - Term 1": [
+        {"code": "FE 305-0723",   "name": "Fabric Structure and Design",              "credit": 3},
+        {"code": "FE 306-0723",   "name": "Fabric Structure and Design Lab",          "credit": 1},
+        {"code": "FE 351-0723",   "name": "Fabric Manufacturing-II",                  "credit": 3},
+        {"code": "FE 352-0723",   "name": "Fabric Manufacturing-II Lab",              "credit": 1},
+        {"code": "TFD 301-0714",  "name": "Industrial Revolution in Textiles",        "credit": 2},
+        {"code": "TFD 302-0714",  "name": "Fashion Draping-I Lab",                    "credit": 1},
+        {"code": "TFD 304-0212",  "name": "Pattern Drafting-II Lab",                  "credit": 1},
+        {"code": "WPE 321-0723",  "name": "Wet Processing-II",                        "credit": 3},
+        {"code": "WPE 322-0723",  "name": "Wet Processing-II Lab",                    "credit": 1},
+        {"code": "YE 309-0723",   "name": "Yarn Manufacturing-II",                    "credit": 3},
+        {"code": "YE 310-0723",   "name": "Yarn Manufacturing-II Lab",                "credit": 1},
+    ],
+
+    # -----------------------------------------------------------------------
+    "TFD: Level 3 - Term 2": [
+        {"code": "ECON 301-0311", "name": "Economics",                                                  "credit": 2},
+        {"code": "TEM 309-0411",  "name": "Accounting and Cost Management",                             "credit": 3},
+        {"code": "TFD 305-0212",  "name": "Application of Computer in Fashion Design",                  "credit": 2},
+        {"code": "TFD 306-0212",  "name": "Application of Computer in Fashion Design Lab",              "credit": 1},
+        {"code": "TFD 307-0212",  "name": "Consumer Behavior in Fashion",                               "credit": 3},
+        {"code": "TFD 308-0212",  "name": "Fashion Draping-II Lab",                                     "credit": 1},
+        {"code": "TFD 309-0212",  "name": "Textile Coloration and Surface Ornamentation",               "credit": 2},
+        {"code": "TFD 310-0212",  "name": "Textile Coloration and Surface Ornamentation Lab",           "credit": 1},
+        {"code": "TFD 311-0212",  "name": "Total Quality Management for Fashion Industry",              "credit": 3},
+        {"code": "TFD 312-0212",  "name": "Menswear Development Lab",                                   "credit": 1},
+    ],
+
+    # -----------------------------------------------------------------------
+    "TFD: Level 4 - Term 1": [
+        {"code": "TFD 401-0212",  "name": "Fashion Forecasting and Trend Analysis",          "credit": 3},
+        {"code": "TFD 402-0212",  "name": "CAD and CAM for Fashion Lab",                     "credit": 1},
+        {"code": "TFD 403-0212",  "name": "Research Methodology and Academic Writing",       "credit": 2},
+        {"code": "TFD 404-0212",  "name": "Fashion Composition and Accessories Lab",         "credit": 1},
+        {"code": "TFD 405-0212",  "name": "Special Clothing and Materials",                  "credit": 3},
+        {"code": "TFD 406-0212",  "name": "Fashion Photography Lab",                         "credit": 1},
+        {"code": "TFD 407-0212",  "name": "Marketing and Fashion Branding",                  "credit": 3},
+        {"code": "TFD 408-0212",  "name": "Kidswear Development Lab",                        "credit": 1},
+        {"code": "TFD 410-0212",  "name": "Womenswear Development Lab",                      "credit": 1},
+        {"code": "TFD 418-0212",  "name": "Project Work (Part-I)",                           "credit": 3},
+    ],
+
+    # -----------------------------------------------------------------------
+    "TFD: Level 4 - Term 2": [
+        {"code": "TFD 411-0212",  "name": "Circular Economy in Fashion and Textiles",        "credit": 3},
+        {"code": "TFD 412-0212",  "name": "Portfolio Development and Presentation Lab",      "credit": 1},
+        {"code": "TFD 413-0212",  "name": "Fashion Entrepreneurship",                        "credit": 3},
+        {"code": "TFD 414-0212",  "name": "Comprehensive Viva",                              "credit": 3},
+        {"code": "TFD 415-0212",  "name": "Fashion Merchandising and Retailing",             "credit": 3},
+        {"code": "TFD 416-0212",  "name": "Industrial Attachment",                           "credit": 3},
+        {"code": "TFD 417-0212",  "name": "Physiology of Fashion Products",                  "credit": 2},
+        {"code": "TFD 418-0212",  "name": "Project Work (Part-II)",                          "credit": 3},
+    ],
+
+
+
+      # ========== IPE - Industrial and Production Engineering ==========
+# Source: Bangladesh University of Textiles, OBE Course List
+# Department of IPE — Pages 13 of 20
+# Credit: as per Credit column in each table
+    # -----------------------------------------------------------------------
+    "IPE: Level 1 - Term 1": [
+        {"code": "CHEM 101-0531", "name": "Chemistry-I",                              "credit": 3},
+        {"code": "CHEM 102-0531", "name": "Chemistry-I Lab",                          "credit": 1},
+        {"code": "IPE 101-0788",  "name": "Engineering Materials",                    "credit": 3},
+        {"code": "IPE 102-0788",  "name": "Engineering Drawing and CAD Lab",          "credit": 1},
+        {"code": "IPE 104-0788",  "name": "Machine Shop Practice Lab",                "credit": 1},
+        {"code": "MATH 101-0541", "name": "Mathematics-I",                            "credit": 3},
+        {"code": "PHY 101-0533",  "name": "Physics-I",                                "credit": 3},
+        {"code": "PHY 102-0533",  "name": "Physics-I Lab",                            "credit": 1},
+        {"code": "SOC 101-0314",  "name": "Bangladesh Studies",                       "credit": 2},
+        {"code": "TEX 119-0723",  "name": "Natural Textile Fibres",                   "credit": 3},
+    ],
+
+    # -----------------------------------------------------------------------
+    "IPE: Level 1 - Term 2": [
+        {"code": "CHEM 103-0531", "name": "Chemistry-II",                             "credit": 3},
+        {"code": "CHEM 104-0531", "name": "Chemistry-II Lab",                         "credit": 1},
+        {"code": "CSE 101-0613",  "name": "Computer Programming",                     "credit": 3},
+        {"code": "CSE 102-0613",  "name": "Computer Programming Lab",                 "credit": 1},
+        {"code": "ENG 101-0231",  "name": "Business and Communicative English",       "credit": 2},
+        {"code": "ENG 102-0231",  "name": "Business and Communicative English Lab",   "credit": 1},
+        {"code": "MATH 103-0541", "name": "Mathematics-II",                           "credit": 3},
+        {"code": "PHY 103-0533",  "name": "Physics-II",                               "credit": 3},
+        {"code": "PHY 104-0533",  "name": "Physics-II Lab",                           "credit": 1},
+        {"code": "WPE 101-0531",  "name": "Polymer Science and Engineering",          "credit": 3},
+    ],
+
+    # -----------------------------------------------------------------------
+    "IPE: Level 2 - Term 1": [
+        {"code": "EEE 201-0713",  "name": "Fundamentals of Electrical and Electronics Engineering",     "credit": 3},
+        {"code": "EEE 202-0713",  "name": "Fundamentals of Electrical and Electronics Engineering Lab", "credit": 1},
+        {"code": "ME 201-0715",   "name": "Fundamentals of Mechanical Engineering",                     "credit": 3},
+        {"code": "ME 202-0715",   "name": "Fundamentals of Mechanical Engineering Lab",                 "credit": 1},
+        {"code": "SOC 201-0314",  "name": "Sociology and Professional Ethics",                          "credit": 2},
+        {"code": "TEX 219-0723",  "name": "Man-made Textile Fibres",                                    "credit": 3},
+        {"code": "YE 211-0723",   "name": "Yarn Manufacturing",                                         "credit": 3},
+        {"code": "YE 212-0723",   "name": "Yarn Manufacturing Lab",                                     "credit": 1},
+        {"code": "YE 213-0723",   "name": "Textile Testing and Quality Control",                        "credit": 3},
+        {"code": "YE 214-0723",   "name": "Textile Testing and Quality Control Lab",                    "credit": 1},
+    ],
+
+    # -----------------------------------------------------------------------
+    "IPE: Level 2 - Term 2": [
+        {"code": "AE 215-0723",   "name": "Apparel Manufacturing",                    "credit": 3},
+        {"code": "AE 216-0723",   "name": "Apparel Manufacturing Lab",                "credit": 1},
+        {"code": "FE 253-0723",   "name": "Fabric Manufacturing",                     "credit": 3},
+        {"code": "FE 254-0723",   "name": "Fabric Manufacturing Lab",                 "credit": 1},
+        {"code": "MGT 201-0413",  "name": "Industrial Management",                    "credit": 3},
+        {"code": "STAT 201-0542", "name": "Statistics",                               "credit": 3},
+        {"code": "TEX 221-0723",  "name": "Textile Physics",                          "credit": 3},
+        {"code": "WPE 223-0723",  "name": "Wet Processing",                           "credit": 3},
+        {"code": "WPE 224-0723",  "name": "Wet Processing Lab",                       "credit": 1},
+    ],
+
+    # -----------------------------------------------------------------------
+    "IPE: Level 3 - Term 1": [
+        {"code": "FE 305-0723",   "name": "Fabric Structure and Design",              "credit": 3},
+        {"code": "FE 306-0723",   "name": "Fabric Structure and Design Lab",          "credit": 1},
+        {"code": "IPE 301-0788",  "name": "Mechanical Manufacturing Processes",       "credit": 3},
+        {"code": "IPE 302-0788",  "name": "Mechanical Manufacturing Processes Lab",   "credit": 1},
+        {"code": "IPE 303-0788",  "name": "Product Design and Development",           "credit": 3},
+        {"code": "IPE 304-0788",  "name": "Product Design and Development Lab",       "credit": 1},
+        {"code": "IPE 305-0788",  "name": "Industrial Engineering in Textiles-I",     "credit": 2},
+        {"code": "ME 301-0715",   "name": "Measurement and Instrumentation",          "credit": 3},
+        {"code": "ME 302-0715",   "name": "Measurement and Instrumentation Lab",      "credit": 1},
+        {"code": "ME 303-0715",   "name": "Automation and Control Engineering",       "credit": 3},
+    ],
+
+    # -----------------------------------------------------------------------
+    "IPE: Level 3 - Term 2": [
+        {"code": "ACC 301-0411",  "name": "Accounting and Cost Management",           "credit": 2},
+        {"code": "IPE 307-0788",  "name": "Operations Management",                    "credit": 3},
+        {"code": "IPE 308-0788",  "name": "Engineering Graphics Lab",                 "credit": 1},
+        {"code": "IPE 309-0788",  "name": "Material Handling and Maintenance Management",     "credit": 3},
+        {"code": "IPE 310-0788",  "name": "Material Handling and Maintenance Management Lab", "credit": 1},
+        {"code": "IPE 311-0788",  "name": "Ergonomics and Safety Management",         "credit": 3},
+        {"code": "IPE 312-0788",  "name": "Ergonomics and Safety Management Lab",     "credit": 1},
+        {"code": "IPE 313-0788",  "name": "Engineering Economy",                      "credit": 3},
+        {"code": "IPE 315-0788",  "name": "Industrial Engineering in Textiles-II",    "credit": 2},
+    ],
+
+    # -----------------------------------------------------------------------
+    "IPE: Level 4 - Term 1": [
+        {"code": "CSE 402-0631",  "name": "Advanced Computer Programming Lab",        "credit": 1},
+        {"code": "IPE 401-0788",  "name": "Operations Research",                      "credit": 3},
+        {"code": "IPE 402-0788",  "name": "Operation Research Lab",                   "credit": 1},
+        {"code": "IPE 403-0788",  "name": "Supply Chain and Logistics Management",    "credit": 3},
+        {"code": "IPE 405-0788",  "name": "CAD, CAM and CIM",                         "credit": 3},
+        {"code": "IPE 406-0788",  "name": "Industrial Simulation Lab",                "credit": 1},
+        {"code": "IPE 407-0788",  "name": "Research Methodology and Academic Writing","credit": 2},
+        {"code": "IPE 408-0788",  "name": "Project Work (Part-I)",                    "credit": 3},
+        {"code": "TEX 401-0723",  "name": "High Performance Textiles and Clothing",   "credit": 2},
+    ],
+
+    # -----------------------------------------------------------------------
+    "IPE: Level 4 - Term 2": [
+        {"code": "IPE 409-0788",  "name": "Quality and Reliability Engineering",      "credit": 3},
+        {"code": "IPE 410-0788",  "name": "Project Work (Part-II)",                   "credit": 3},
+        {"code": "IPE 411-0788",  "name": "Project and Environment Management",       "credit": 3},
+        {"code": "IPE 412-0788",  "name": "Industrial Attachment",                    "credit": 3},
+        {"code": "IPE 413-0788",  "name": "Industrial Revolutions in Textiles",       "credit": 2},
+        {"code": "IPE 414-0788",  "name": "Comprehensive Viva",                       "credit": 3},
     ]
+
+
 
 
 }
