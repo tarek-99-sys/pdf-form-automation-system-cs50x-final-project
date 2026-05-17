@@ -616,6 +616,195 @@ curriculum = {
         {"code": "PHY 104-0533",  "name": "Physics-II Lab",                            "credit": 1},
         {"code": "SOC 103-1022",  "name": "Sociology and Social Compliance",           "credit": 2},
         {"code": "IPE 102-0788",  "name": "Engineering Drawing and CAD Lab",           "credit": 1},
+    ],
+       "TME: Level 2 - Term 1": [
+        {"code": "TME 201-0722",  "name": "Natural Fibre Science",                                       "credit": 3},
+        {"code": "TME 202-0722",  "name": "Natural Fibre Science Lab",                                   "credit": 1},
+        {"code": "YE 211-0723",   "name": "Yarn Manufacturing",                                          "credit": 3},
+        {"code": "YE 212-0723",   "name": "Yarn Manufacturing Lab",                                      "credit": 1},
+        {"code": "FE 253-0723",   "name": "Fabric Manufacturing",                                        "credit": 3},
+        {"code": "FE 254-0723",   "name": "Fabric Manufacturing Lab",                                    "credit": 1},
+        {"code": "EEE 201-0713",  "name": "Fundamentals of Electrical and Electronics Engineering",      "credit": 3},
+        {"code": "EEE 202-0713",  "name": "Fundamentals of Electrical and Electronics Engineering Lab",  "credit": 1},
+        {"code": "STAT 201-0542", "name": "Statistics",                                                  "credit": 3},
+        {"code": "STAT 202-0542", "name": "Statistical Data Analysis Lab",                               "credit": 1},
+    ],
+ 
+    # -----------------------------------------------------------------------
+    "TME: Level 2 - Term 2": [
+        {"code": "TME 203-0722",  "name": "Synthetic and Regenerated Fibre Science",                     "credit": 3},
+        {"code": "TME 204-0722",  "name": "Synthetic and Regenerated Fibre Science Lab",                 "credit": 1},
+        {"code": "TEX 205-0723",  "name": "Textile Wet Processing",                                      "credit": 3},
+        {"code": "TEX 206-0723",  "name": "Textile Wet Processing Lab",                                  "credit": 1},
+        {"code": "AE 215-0723",   "name": "Apparel Manufacturing",                                       "credit": 3},
+        {"code": "AE 216-0723",   "name": "Apparel Manufacturing Lab",                                   "credit": 1},
+        {"code": "ME 201-0715",   "name": "Fundamentals of Mechanical Engineering",                      "credit": 3},
+        {"code": "ME 202-0715",   "name": "Fundamentals of Mechanical Engineering Lab",                  "credit": 1},
+        {"code": "PSY 201-0313",  "name": "Professional Ethics and Psychology",                          "credit": 2},
+        {"code": "YE 213-0723",   "name": "Textile Testing and Quality Control",                         "credit": 3},
+        {"code": "YE 214-0723",   "name": "Textile Testing and Quality Control Lab",                     "credit": 1},
+    ],
+ 
+    # -----------------------------------------------------------------------
+    "TME: Level 3 - Term 1": [
+        {"code": "TME 301-0722",  "name": "Structure and Crystallography of Materials",          "credit": 3},
+        {"code": "TME 302-0722",  "name": "Structure and Crystallography of Materials Lab",      "credit": 1},
+        {"code": "TME 303-0722",  "name": "Characterization of Materials",                       "credit": 3},
+        {"code": "TME 304-0722",  "name": "Characterization of Materials Lab",                   "credit": 1},
+        {"code": "TME 305-0722",  "name": "Polymeric Materials: Design and Manufacturing",       "credit": 3},
+        {"code": "TME 306-0722",  "name": "Polymeric Materials: Design and Manufacturing Lab",   "credit": 1},
+        {"code": "TME 307-0722",  "name": "Thermodynamics of Materials",                         "credit": 3},
+        {"code": "ECON 301-0311", "name": "Economics",                                           "credit": 2},
+        {"code": "ACC 301-0411",  "name": "Accounting and Cost Management",                      "credit": 2},
+        {"code": "MGT 301-0413",  "name": "Production Planning and Control",                     "credit": 2},
+    ],
+ 
+    # -----------------------------------------------------------------------
+    "TME: Level 3 - Term 2": [
+        {"code": "TME 309-0722",  "name": "Mechanical Properties of Textile Materials",          "credit": 3},
+        {"code": "TME 310-0722",  "name": "Mechanical Properties of Textile Materials Lab",      "credit": 1},
+        {"code": "TME 311-0722",  "name": "Functional Colorants for Material Applications",      "credit": 3},
+        {"code": "TME 313-0722",  "name": "Textile Physics and Dynamics",                        "credit": 3},
+        {"code": "TME 315-0722",  "name": "Phase Transitions and Material Microstructure",       "credit": 3},
+        {"code": "TME 317-0722",  "name": "Surface Modification and Coating",                    "credit": 3},
+        {"code": "FE 305-0723",   "name": "Fabric Structure and Design",                         "credit": 3},
+        {"code": "FE 306-0723",   "name": "Fabric Structure and Design Lab",                     "credit": 1},
+    ],
+ 
+    # -----------------------------------------------------------------------
+    "TME: Level 4 - Term 1": [
+        {"code": "TME 401-0722",  "name": "Textile Composite Materials",                         "credit": 3},
+        {"code": "TME 402-0722",  "name": "Textile Composite Materials Lab",                     "credit": 1},
+        {"code": "TME 403-0722",  "name": "Biocompatible and Functional Materials",              "credit": 3},
+        {"code": "TME 405-0722",  "name": "Artificial Intelligence in Textile Materials",        "credit": 3},
+        {"code": "TME 406-0722",  "name": "Computational Material Science Lab",                  "credit": 1},
+        {"code": "EDU 407-0188",  "name": "Research Methodology",                               "credit": 3},
+        {"code": "TME 408-0722",  "name": "Project (Part-I)",                                    "credit": 3},
+        {"code": "TME 409-0722",  "name": "Textile Product Development and Innovation",          "credit": 2},
+    ],
+ 
+    # -----------------------------------------------------------------------
+    "TME: Level 4 - Term 2": [
+        {"code": "TME 411-0722",  "name": "World Trade Law and the Textile Industry",            "credit": 3},
+        {"code": "TME 413-0722",  "name": "Supply Chain and Logistics for Textile Industry",     "credit": 3},
+        {"code": "TME 415-0722",  "name": "Environmental Issues and Circularity",               "credit": 3},
+        {"code": "MGT 401-0413",  "name": "Industrial Management",                              "credit": 2},
+        {"code": "TME 410-0722",  "name": "Project (Part-II)",                                   "credit": 3},
+        {"code": "TME 412-0722",  "name": "Industrial Attachment (2 Months)",                    "credit": 3},
+        {"code": "TME 414-0722",  "name": "Comprehensive Viva",                                  "credit": 1},
+    ],
+
+     
+      
+# ========== TMDM - Textile Machine Design and Maintenance ==========
+# Source: Bangladesh University of Textiles, Only_TMDM_OBE_docx.pdf
+# Credit: as per Credit column in each table
+
+
+    # -----------------------------------------------------------------------
+    "TMDM: Level 1 - Term 1": [
+        {"code": "MS 1101-0541",   "name": "Mathematics-I",                              "credit": 3},
+        {"code": "PHY 1103-0533",  "name": "Physics-I",                                  "credit": 3},
+        {"code": "PHY 1104-0533",  "name": "Physics-I Lab",                              "credit": 1},
+        {"code": "CHEM 1105-0531", "name": "Chemistry-I",                                "credit": 3},
+        {"code": "CHEM 1106-0531", "name": "Chemistry-I Lab",                            "credit": 1},
+        {"code": "TEX 1107-0723",  "name": "Textile Process and Machinery",              "credit": 3},
+        {"code": "TEX 1108-0723",  "name": "Textile Process and Machinery Lab",          "credit": 1},
+        {"code": "TEX 1109-0723",  "name": "Polymers and Composites",                    "credit": 2},
+        {"code": "TEX 1111-0723",  "name": "Fiber Science",                              "credit": 3},
+    ],
+
+    # -----------------------------------------------------------------------
+    "TMDM: Level 1 - Term 2": [
+        {"code": "MS 1201-0541",   "name": "Mathematics-II",                             "credit": 3},
+        {"code": "PHY 1203-0533",  "name": "Physics-II",                                 "credit": 3},
+        {"code": "PHY 1204-0533",  "name": "Physics-II Lab",                             "credit": 1},
+        {"code": "CHEM 1205-0531", "name": "Chemistry-II",                               "credit": 3},
+        {"code": "CHEM 1206-0531", "name": "Chemistry-II Lab",                           "credit": 1},
+        {"code": "ENG 1207-0231",  "name": "Business and Communicative English",         "credit": 2},
+        {"code": "ENG 1208-0231",  "name": "Business and Communicative English Lab",     "credit": 1},
+        {"code": "CSE 1209-0613",  "name": "Computer Programming",                       "credit": 3},
+        {"code": "CSE 1210-0613",  "name": "Computer Programming Lab",                   "credit": 1},
+        {"code": "SOC 1211-0314",  "name": "Bangladesh Studies",                         "credit": 2},
+        {"code": "MDM 1214-0715",  "name": "Machine Drawing Lab",                        "credit": 1},
+    ],
+
+    # -----------------------------------------------------------------------
+    "TMDM: Level 2 - Term 1": [
+        {"code": "MDM 2101-0723",  "name": "Yarn Manufacturing Process, Machinery and Maintenance-I",        "credit": 3},
+        {"code": "MDM 2102-0723",  "name": "Yarn Manufacturing Process, Machinery and Maintenance-I Lab",    "credit": 1},
+        {"code": "MDM 2103-0723",  "name": "Fabric Manufacturing Process, Machinery and Maintenance-I",      "credit": 3},
+        {"code": "MDM 2104-0723",  "name": "Fabric Manufacturing Process, Machinery and Maintenance-I Lab",  "credit": 1},
+        {"code": "ME 2105-0715",   "name": "Engineering Mechanics",                                          "credit": 3},
+        {"code": "ME 2106-0715",   "name": "Engineering Mechanics Lab",                                      "credit": 1},
+        {"code": "EEE 2107-0713",  "name": "Electrical Circuits",                                            "credit": 3},
+        {"code": "EEE 2108-0713",  "name": "Electrical Circuits Lab",                                        "credit": 1},
+        {"code": "TEX 2109-0613",  "name": "Textile Information System and Design",                          "credit": 2},
+        {"code": "TEX 2110-0613",  "name": "Textile Information System and Design Lab",                      "credit": 1},
+    ],
+
+    # -----------------------------------------------------------------------
+    "TMDM: Level 2 - Term 2": [
+        {"code": "STAT 2201-0542", "name": "Engineering Statistics",                                          "credit": 3},
+        {"code": "MDM 2203-0723",  "name": "Coloration Process, Machinery and Maintenance-I",                 "credit": 3},
+        {"code": "MDM 2204-0723",  "name": "Coloration Process, Machinery and Maintenance-I Lab",             "credit": 1},
+        {"code": "MDM 2205-0723",  "name": "Apparel Manufacturing Process, Machinery and Maintenance-I",      "credit": 3},
+        {"code": "MDM 2206-0723",  "name": "Apparel Manufacturing Process, Machinery and Maintenance-I Lab",  "credit": 1},
+        {"code": "EEE 2207-0714",  "name": "Electronics",                                                     "credit": 3},
+        {"code": "EEE 2208-0714",  "name": "Electronics Lab",                                                 "credit": 1},
+        {"code": "MDM 2209-0715",  "name": "Principles of Machine Maintenance",                               "credit": 2},
+        {"code": "MDM 2211-0722",  "name": "Textile Machine Metallurgy",                                      "credit": 2},
+    ],
+
+    # -----------------------------------------------------------------------
+    "TMDM: Level 3 - Term 1": [
+        {"code": "MDM 3101-0723",  "name": "Yarn Manufacturing Process, Machinery and Maintenance-II",       "credit": 3},
+        {"code": "MDM 3102-0723",  "name": "Yarn Manufacturing Process, Machinery and Maintenance-II Lab",   "credit": 1},
+        {"code": "MDM 3103-0723",  "name": "Fabric Manufacturing Process, Machinery and Maintenance-II",     "credit": 3},
+        {"code": "MDM 3104-0723",  "name": "Fabric Manufacturing Process, Machinery and Maintenance-II Lab", "credit": 1},
+        {"code": "CSE 3105-0613",  "name": "Embedded System",                                                "credit": 2},
+        {"code": "CSE 3106-0613",  "name": "Embedded System Lab",                                            "credit": 1},
+        {"code": "TEX 3107-0713",  "name": "Textile Utility Machinery",                                      "credit": 2},
+        {"code": "TEX 3108-0713",  "name": "Textile Utility Machinery Lab",                                  "credit": 1},
+        {"code": "ME 3109-0715",   "name": "Machinery Production Processes",                                 "credit": 2},
+        {"code": "ME 3110-0715",   "name": "Machinery Production Processes Lab",                             "credit": 1},
+        {"code": "TEX 3111-0723",  "name": "Functional and Smart Textiles",                                  "credit": 2},
+    ],
+
+    # -----------------------------------------------------------------------
+    "TMDM: Level 3 - Term 2": [
+        {"code": "ECON 3201-0311", "name": "Engineering Economics",                                           "credit": 2},
+        {"code": "TEX 3203-0723",  "name": "Fabric Design and Machine Modification",                          "credit": 3},
+        {"code": "TEX 3204-0723",  "name": "Fabric Design and Machine Modification Lab",                      "credit": 1},
+        {"code": "MDM 3205-0723",  "name": "Coloration Process, Machinery and Maintenance-II",                "credit": 3},
+        {"code": "MDM 3206-0723",  "name": "Coloration Process, Machinery and Maintenance-II Lab",            "credit": 1},
+        {"code": "MDM 3207-0723",  "name": "Apparel Manufacturing Process, Machinery and Maintenance-II",     "credit": 3},
+        {"code": "MDM 3208-0723",  "name": "Apparel Manufacturing Process, Machinery and Maintenance-II Lab", "credit": 1},
+        {"code": "ME 3209-0715",   "name": "Mechanics of Machinery",                                          "credit": 2},
+        {"code": "ACC 3211-0411",  "name": "Accounting and Cost Management",                                  "credit": 3},
+    ],
+
+    # -----------------------------------------------------------------------
+    "TMDM: Level 4 - Term 1": [
+        {"code": "TEX 4101-0723",  "name": "Textile Testing and Machinery",          "credit": 3},
+        {"code": "TEX 4102-0723",  "name": "Textile Testing and Machinery Lab",      "credit": 1},
+        {"code": "TEX 4103-0714",  "name": "Textile Automation and Control",         "credit": 2},
+        {"code": "TEX 4104-0714",  "name": "Textile Automation and Control Lab",     "credit": 1},
+        {"code": "MDM 4105-0715",  "name": "Principles of Machine Design",           "credit": 3},
+        {"code": "MDM 4106-0715",  "name": "Principles of Machine Design Lab",       "credit": 1},
+        {"code": "EEE 4107-0713",  "name": "Industrial Power Distribution",          "credit": 2},
+        {"code": "EEE 4108-0713",  "name": "Industrial Power Distribution Lab",      "credit": 1},
+        {"code": "MDM 4110-0723",  "name": "Project Work and Research Methodology-I","credit": 3},
+    ],
+
+    # -----------------------------------------------------------------------
+    "TMDM: Level 4 - Term 2": [
+        {"code": "SOC 4201-0314",  "name": "Professional Ethics and Sociology",          "credit": 2},
+        {"code": "MDM 4203-0723",  "name": "Marketing of Textile Machinery",             "credit": 3},
+        {"code": "MDM 4205-0413",  "name": "Management of Textile Industry",             "credit": 3},
+        {"code": "MDM 4208-0723",  "name": "Industrial Attachment (2 Months)",           "credit": 3},
+        {"code": "MDM 4210-0723",  "name": "Project Work and Research Methodology-II",   "credit": 3},
+        {"code": "MDM 4212-0723",  "name": "Comprehensive Viva",                         "credit": 3},
     ]
 
 
