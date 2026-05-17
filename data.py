@@ -584,6 +584,38 @@ curriculum = {
         {"code": "ESE 430-0723",  "name": "Industrial Attachment",                             "credit": 3},
         {"code": "ESE 432-0723",  "name": "Project Work (Part-II)",                            "credit": 3},
         {"code": "ESE 434-0723",  "name": "Comprehensive Viva",                                "credit": 1},
+    ],
+      # ========== TME - Textile Materials Engineering ==========
+# Source: Bangladesh University of Textiles, Syllabus for TME
+# Credit: as per Credit column in each table
+
+
+    # -----------------------------------------------------------------------
+    "TME: Level 1 - Term 1": [
+        {"code": "CHEM 101-0531", "name": "Chemistry-I",                               "credit": 3},
+        {"code": "CHEM 102-0531", "name": "Chemistry-I Lab",                           "credit": 1},
+        {"code": "SOC 101-0531",  "name": "Bangladesh Studies",                        "credit": 2},
+        {"code": "TME 101-0722",  "name": "Fundamentals of Polymer Chemistry",         "credit": 3},
+        {"code": "IPE 104-0788",  "name": "Machine Shop Practice Lab",                 "credit": 1},
+        {"code": "ENG 101-0231",  "name": "Business and Communicative English",        "credit": 2},
+        {"code": "ENG 102-0231",  "name": "Business and Communicative English Lab",    "credit": 1},
+        {"code": "MATH 101-0541", "name": "Mathematics-I",                             "credit": 3},
+        {"code": "PHY 101-0533",  "name": "Physics-I",                                 "credit": 3},
+        {"code": "PHY 102-0533",  "name": "Physics-I Lab",                             "credit": 1},
+    ],
+
+    # -----------------------------------------------------------------------
+    "TME: Level 1 - Term 2": [
+        {"code": "CHEM 103-0531", "name": "Chemistry-II",                              "credit": 3},
+        {"code": "CHEM 104-0531", "name": "Chemistry-II Lab",                          "credit": 1},
+        {"code": "CSE 101-0613",  "name": "Computer Programming",                      "credit": 3},
+        {"code": "CSE 102-0613",  "name": "Computer Programming Lab",                  "credit": 1},
+        {"code": "TME 103-0722",  "name": "Introduction to Materials Engineering",     "credit": 2},
+        {"code": "MATH 103-0541", "name": "Mathematics-II",                            "credit": 3},
+        {"code": "PHY 103-0533",  "name": "Physics-II",                                "credit": 3},
+        {"code": "PHY 104-0533",  "name": "Physics-II Lab",                            "credit": 1},
+        {"code": "SOC 103-1022",  "name": "Sociology and Social Compliance",           "credit": 2},
+        {"code": "IPE 102-0788",  "name": "Engineering Drawing and CAD Lab",           "credit": 1},
     ]
 
 
