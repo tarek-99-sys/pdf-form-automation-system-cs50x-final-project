@@ -805,6 +805,124 @@ curriculum = {
         {"code": "MDM 4208-0723",  "name": "Industrial Attachment (2 Months)",           "credit": 3},
         {"code": "MDM 4210-0723",  "name": "Project Work and Research Methodology-II",   "credit": 3},
         {"code": "MDM 4212-0723",  "name": "Comprehensive Viva",                         "credit": 3},
+    ],
+
+      
+      # ========== DCE - Dyes and Chemical Engineering ==========
+# Source: Bangladesh University of Textiles, OBE Full Curriculum
+# Credit: as per Credit column in each table
+
+    # -----------------------------------------------------------------------
+    "DCE: Level 1 - Term 1": [
+        {"code": "CHEM 101-0531", "name": "Chemistry-I",                                      "credit": 3},
+        {"code": "CHEM 102-0531", "name": "Chemistry-I Lab",                                  "credit": 1},
+        {"code": "DCE 101-0711",  "name": "Fundamentals of Dyes and Chemical Engineering",    "credit": 3},
+        {"code": "DCE 102-0711",  "name": "Fundamentals of Dyes and Chemical Engineering Lab","credit": 1},
+        {"code": "CSE 102-0613",  "name": "Computer Programming Lab",                         "credit": 1},
+        {"code": "EDU 102-0188",  "name": "Life Skills and Career Planning Lab",              "credit": 1},
+        {"code": "ENG 101-0231",  "name": "Business and Communicative English",               "credit": 2},
+        {"code": "ENG 102-0231",  "name": "Business and Communicative English Lab",           "credit": 1},
+        {"code": "MATH 101-0541", "name": "Mathematics-I",                                    "credit": 3},
+        {"code": "PHY 101-0533",  "name": "Physics-I",                                        "credit": 3},
+        {"code": "PHY 102-0533",  "name": "Physics-I Lab",                                    "credit": 1},
+    ],
+
+    # -----------------------------------------------------------------------
+    "DCE: Level 1 - Term 2": [
+        {"code": "CHEM 103-0531", "name": "Chemistry-II",                                     "credit": 3},
+        {"code": "CHEM 104-0531", "name": "Chemistry-II Lab",                                 "credit": 1},
+        {"code": "MATH 103-0541", "name": "Mathematics-II",                                   "credit": 3},
+        {"code": "PHY 103-0533",  "name": "Physics-II",                                       "credit": 3},
+        {"code": "PHY 104-0533",  "name": "Physics-II Lab",                                   "credit": 1},
+        {"code": "SOC 101-0314",  "name": "Bangladesh Studies",                               "credit": 2},
+        {"code": "SOC 103-1022",  "name": "Sociology and Social Compliance",                  "credit": 2},
+        {"code": "TEX 111-0531",  "name": "Polymer Science",                                  "credit": 3},
+        {"code": "TEX 105-0723",  "name": "Natural Textile Fibres",                           "credit": 3},
+        {"code": "DCE 104-0611",  "name": "Application Software for Beginners Lab",           "credit": 1},
+    ],
+
+    # -----------------------------------------------------------------------
+    "DCE: Level 2 - Term 1": [
+        {"code": "DCE 201-0711",  "name": "Biochemical Engineering",                                    "credit": 3},
+        {"code": "DCE 203-0711",  "name": "Synthesis and Formulation of Textile Preparatory Chemicals", "credit": 3},
+        {"code": "DCE 204-0711",  "name": "Synthesis and Formulation of Textile Preparatory Chemicals Lab", "credit": 1},
+        {"code": "FE 253-0723",   "name": "Fabric Manufacturing",                                       "credit": 3},
+        {"code": "FE 254-0723",   "name": "Fabric Manufacturing Lab",                                   "credit": 1},
+        {"code": "ME 201-0715",   "name": "Fundamentals of Mechanical Engineering",                     "credit": 3},
+        {"code": "ME 202-0715",   "name": "Fundamentals of Mechanical Engineering Lab",                 "credit": 1},
+        {"code": "TEX 201-0723",  "name": "Man-made Textile Fibres",                                    "credit": 3},
+        {"code": "YE 211-0723",   "name": "Yarn Manufacturing",                                         "credit": 3},
+        {"code": "YE 212-0723",   "name": "Yarn Manufacturing Lab",                                     "credit": 1},
+    ],
+
+    # -----------------------------------------------------------------------
+    "DCE: Level 2 - Term 2": [
+        {"code": "AE 215-0723",   "name": "Apparel Manufacturing",                                          "credit": 3},
+        {"code": "AE 216-0723",   "name": "Apparel Manufacturing Lab",                                      "credit": 1},
+        {"code": "EEE 201-0713",  "name": "Fundamentals of Electrical and Electronics Engineering",          "credit": 3},
+        {"code": "EEE 202-0713",  "name": "Fundamentals of Electrical and Electronics Engineering Lab",      "credit": 1},
+        {"code": "STAT 201-0542", "name": "Statistics",                                                      "credit": 3},
+        {"code": "STAT 202-0542", "name": "Statistical Data Analysis Lab",                                   "credit": 1},
+        {"code": "TEX 211-0723",  "name": "Textile Wet Processing",                                          "credit": 3},
+        {"code": "TEX 206-0723",  "name": "Textile Pretreatment Lab",                                        "credit": 1},
+        {"code": "YE 213-0723",   "name": "Textile Testing and Quality Control",                             "credit": 3},
+        {"code": "YE 214-0723",   "name": "Textile Testing and Quality Control Lab",                         "credit": 1},
+    ],
+
+    # -----------------------------------------------------------------------
+    "DCE: Level 3 - Term 1": [
+        {"code": "DCE 301-0531",  "name": "Synthesis of Dyes and Pigments",                               "credit": 3},
+        {"code": "DCE 302-0531",  "name": "Synthesis of Dyes and Pigments Lab",                           "credit": 1},
+        {"code": "DCE 304-0723",  "name": "Textile Dyeing Lab",                                           "credit": 1},
+        {"code": "DCE 305-0711",  "name": "Fluid Mechanics",                                              "credit": 3},
+        {"code": "DCE 306-0711",  "name": "Fluid Mechanics Lab",                                          "credit": 1},
+        {"code": "DCE 307-0533",  "name": "Fundamentals of Colour Science",                               "credit": 2},
+        {"code": "DCE 309-0714",  "name": "Industrial Revolution in Textiles",                            "credit": 2},
+        {"code": "DCE 310-0714",  "name": "Industrial Revolution in Textiles Lab",                        "credit": 1},
+        {"code": "DCE 311-0414",  "name": "Marketing and Sales of Textile Dyes and Chemicals",            "credit": 3},
+        {"code": "DCE 313-0723",  "name": "Technical and Smart Textiles",                                 "credit": 2},
+        {"code": "ACC 301-0411",  "name": "Accounting and Cost Management",                               "credit": 2},
+        {"code": "DCE 316-0715",  "name": "Machinery for Textile Processing and Chemical Industry Lab",   "credit": 1},
+    ],
+
+    # -----------------------------------------------------------------------
+    "DCE: Level 3 - Term 2": [
+        {"code": "DCE 317-0711",  "name": "Synthesis and Formulation of Textile Finishing Chemicals",     "credit": 3},
+        {"code": "DCE 318-0711",  "name": "Synthesis and Formulation of Textile Finishing Chemicals Lab", "credit": 1},
+        {"code": "DCE 319-0711",  "name": "Chemical Reaction Engineering",                                "credit": 3},
+        {"code": "DCE 321-0723",  "name": "Sustainability and Circularity in Textile and Chemical Industry", "credit": 3},
+        {"code": "DCE 324-0711",  "name": "Chemical Testing and Quality Assurance Lab",                   "credit": 1},
+        {"code": "DCE 326-0723",  "name": "Textile Finishing and Garment Washing Lab",                    "credit": 1},
+        {"code": "DCE 328-0723",  "name": "Year 3 Seminar and Group Work",                                "credit": 1},
+        {"code": "ECON 301-0311", "name": "Economics",                                                    "credit": 2},
+        {"code": "FE 305-0723",   "name": "Fabric Structure and Design",                                  "credit": 3},
+        {"code": "FE 306-0723",   "name": "Fabric Structure and Design Lab",                              "credit": 1},
+        {"code": "IPE 316-0788",  "name": "Engineering Drawing and CAD Lab",                              "credit": 1},
+    ],
+
+    # -----------------------------------------------------------------------
+    "DCE: Level 4 - Term 1": [
+        {"code": "DCE 401-0723",  "name": "Textile Printing",                                  "credit": 2},
+        {"code": "DCE 402-0723",  "name": "Textile Printing Lab",                              "credit": 1},
+        {"code": "DCE 403-1022",  "name": "Chemical Safety and Management",                    "credit": 3},
+        {"code": "DCE 405-0531",  "name": "Green Chemistry and Wastewater Management",         "credit": 3},
+        {"code": "DCE 407-0531",  "name": "Chemistry and Application of Functional Colorants", "credit": 2},
+        {"code": "DCE 410-0713",  "name": "Instrumental Analysis Lab",                         "credit": 1},
+        {"code": "DCE 412-0031",  "name": "Public Speaking and Negotiation Lab",               "credit": 1},
+        {"code": "DCE 414-0723",  "name": "Project (Part-I)",                                  "credit": 3},
+        {"code": "EDU 401-0188",  "name": "Research Methodology and Academic Writing",         "credit": 2},
+        {"code": "LAW 401-0413",  "name": "Industrial Law",                                    "credit": 2},
+        {"code": "PSY 401-0313",  "name": "Professional Ethics and Psychology",                "credit": 2},
+    ],
+
+    # -----------------------------------------------------------------------
+    "DCE: Level 4 - Term 2": [
+        {"code": "MGT 403-0413",  "name": "Textile Supply Chain Management",                   "credit": 2},
+        {"code": "TEM 425-0413",  "name": "Entrepreneurship and Project Management",           "credit": 2},
+        {"code": "ESE 422-0712",  "name": "Wastewater Treatment and Modelling Lab",            "credit": 1},
+        {"code": "DCE 416-0723",  "name": "Project (Part-II)",                                 "credit": 3},
+        {"code": "DCE 418-0723",  "name": "Industrial Attachment",                             "credit": 3},
+        {"code": "DCE 420-0723",  "name": "Comprehensive Exam",                                "credit": 1},
     ]
 
 
