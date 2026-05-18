@@ -988,18 +988,33 @@ curriculum = {
     ],
 
     # -----------------------------------------------------------------------
-    "TEM: Level 3 - Term 1": [
-        {"code": "FE 305-0723",   "name": "Fabric Structure and Design",             "credit": 3},
-        {"code": "FE 306-0723",   "name": "Fabric Structure and Design Lab",         "credit": 1},
-        {"code": "FE 351-0723",   "name": "Fabric Manufacturing-II",                 "credit": 3},
-        {"code": "FE 352-0723",   "name": "Fabric Manufacturing-II Lab",             "credit": 1},
-        {"code": "TEM 301-0311",  "name": "Financial Management",                    "credit": 2},
-        {"code": "TEM 303-0413",  "name": "Entrepreneurship and Project Management", "credit": 3},
-        {"code": "TEM 304-0413",  "name": "Project Management Lab",                  "credit": 1},
-        {"code": "TEM 305-0413",  "name": "Production Planning and Control",         "credit": 3},
-        {"code": "YE 309-0723",   "name": "Yarn Manufacturing-II",                   "credit": 3},
-        {"code": "YE 310-0723",   "name": "Yarn Manufacturing-II Lab",               "credit": 1},
-    ],
+    # "TEM: Level 3 - Term 1": [
+    #     {"code": "FE 305-0723",   "name": "Fabric Structure and Design",             "credit": 3},
+    #     {"code": "FE 306-0723",   "name": "Fabric Structure and Design Lab",         "credit": 1},
+    #     {"code": "FE 351-0723",   "name": "Fabric Manufacturing-II",                 "credit": 3},
+    #     {"code": "FE 352-0723",   "name": "Fabric Manufacturing-II Lab",             "credit": 1},
+    #     {"code": "TEM 301-0311",  "name": "Financial Management",                    "credit": 2},
+    #     {"code": "TEM 303-0413",  "name": "Entrepreneurship and Project Management", "credit": 3},
+    #     {"code": "TEM 304-0413",  "name": "Project Management Lab",                  "credit": 1},
+    #     {"code": "TEM 305-0413",  "name": "Production Planning and Control",         "credit": 3},
+    #     {"code": "YE 309-0723",   "name": "Yarn Manufacturing-II",                   "credit": 3},
+    #     {"code": "YE 310-0723",   "name": "Yarn Manufacturing-II Lab",               "credit": 1},
+    # ],
+
+
+      "TEM: Level 3 - Term 1": [
+            {"code": "FE 305-0723",  "name": "Fabric Structure and Design",        "credit": 3},
+            {"code": "FE 306-0723",  "name": "Fabric Structure and Design Lab",    "credit": 1},
+            {"code": "FE 351-0723",  "name": "Fabric Manufacturing-II",            "credit": 3},
+            {"code": "FE 352-0723",  "name": "Fabric Manufacturing-II Lab",        "credit": 1},
+            {"code": "TEM 303-0412", "name": "Financial Management",               "credit": 2},
+            {"code": "TEM 305-0413", "name": "Entrepreneurship Development",       "credit": 3},
+            {"code": "TEM 307-0413", "name": "Project Management",                 "credit": 3},
+            {"code": "TEM 301-0413", "name": "Management Information System",      "credit": 3},
+            {"code": "YE 309-0723",  "name": "Yarn Manufacturing-II",              "credit": 3},
+            {"code": "YE 310-0723",  "name": "Yarn Manufacturing-II Lab",          "credit": 1},
+            {"code": "TEM 308-0413", "name": "Project Management Lab",             "credit": 1},
+      ],
 
     # -----------------------------------------------------------------------
     "TEM: Level 3 - Term 2": [
