@@ -23,9 +23,9 @@ def ping():
     return "alive", 200
 
 def keep_alive():
-    url = "https://your-app-name.onrender.com/ping"  # <-- replace with your actual URL
+    url = "https://pdf-form-automation-system-cs50x-final.onrender.com"  # <-- replace with your actual URL
     while True:
-        time.sleep(9 * 60)
+        time.sleep(14 * 60)
         try:
             response = requests.get(url, timeout=10)
             print(f"Pinged at {time.strftime('%H:%M:%S')} - status: {response.status_code}")
